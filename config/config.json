@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "discord_clone",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "password",
+    "database": "discord_clone",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "password",
+    "database": "discord_clone",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
